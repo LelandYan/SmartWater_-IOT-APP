@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="扫码添加设备"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_crop_free_24"
+        android:id="@+id/scan" />
+    <item
+        android:title="手动添加设备"
+        android:enabled="true"
+        android:icon="@drawable/ic_round_build_24"
+        android:id="@+id/human" />
+
+<!--    <item-->
+<!--        android:title="扫码添加设备"-->
+<!--        android:id="@+id/scan" />-->
+<!--    <item-->
+<!--        android:title="手动添加设备"-->
+<!--        android:id="@+id/human" />-->
+
+</menu>

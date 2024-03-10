@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HIOT</string>
+    <string name="tips_scan_qr_code">将二维码放入框内，即可自动扫描</string>
+</resources>

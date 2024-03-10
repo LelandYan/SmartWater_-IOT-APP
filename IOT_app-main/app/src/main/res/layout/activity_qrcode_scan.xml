@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingClass">
+
+        <ImageView
+            android:id="@+id/ivFlashlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="610dp"
+            android:layout_marginLeft="80dp"
+            android:contentDescription="@null"
+            android:src="@drawable/camera_scan_flashlight_selector" />
+
+        <TextView
+            android:id="@+id/tv_torch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="645dp"
+            android:layout_marginLeft="54dp"
+            android:text="打开照明"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/ivFlashImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="615dp"
+            android:layout_marginLeft="290dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_baseline_image_24" />
+
+        <TextView
+            android:id="@+id/tv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="645dp"
+            android:layout_marginLeft="263dp"
+            android:text="上传图片"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <com.king.zxing.ViewfinderView
+            android:id="@+id/viewfinderView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:labelText="将二维码放入框内，即可自动扫描"
+            app:labelTextColor="#ffffff"
+            app:vvLabelTextLocation="bottom"
+            app:vvLaserStyle="grid" />
+
+    </androidx.camera.view.PreviewView>
+
+</FrameLayout>
+
+<!--    android:layout_gravity="center"-->
